@@ -23,6 +23,8 @@
     background: #FFF6BD;
     border-radius: 2px;
     padding: 0 4px;
+    max-width: 300px;
+    font-weight: normal;
 }
 .tooltip-ap div {
     display: none;
