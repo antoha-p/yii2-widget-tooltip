@@ -1,26 +1,23 @@
 {
-  "name": "antoha-p/yii2-widget-tooltip",
-  "description": "Yii2 widget tooltip",
-  "keywords": [
-    "yii2",
-    "widget"
-  ],
-  "homepage": "https://github.com/antoha-p/yii2-widget-tooltip",
-  "type": "yii2-widget",
-  "license": "BSD-3-Clause",
-  "authors": [
-    {
-      "name": "Anton Puzanov",
-      "email": "antonp1961@gmail.com",
-      "homepage": "https://github.com/antoha-p/"
+    "name": "antoha-p/yii2-widget-tooltip",
+    "description": "Yii2 widget tooltip",
+    "keywords": ["yii2", "extension", "widget", "tooltip", "plugin"],
+    "homepage": "https://github.com/antoha-p/yii2-widget-tooltip",
+    "type": "yii2-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Anton Puzanov",
+            "email": "antonp1961@gmail.com",
+            "homepage": "https://github.com/antoha-p/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "antoha\\tooltip\\": ""
+        }
     }
-  ],
-  "require": {
-    "yiisoft/yii2": "~2.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "antoha\\tooltip\\": ""
-    }
-  }
 }
