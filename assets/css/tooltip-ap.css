@@ -1,0 +1,43 @@
+/*!
+ * @copyright Copyright &copy; Anton Puzanov, 2018
+ * @package yii2-widgets
+ * @subpackage yii2-widget-tooltip
+ * @version 1.0.0
+ *
+ * Author: Anton Puzanov
+ */
+
+.tooltip-ap {
+    position: relative;
+    cursor: help;
+
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    margin-left: 2px;
+    top: -2px;
+    color: #9A4D18;
+    border: 1px solid #FAD28F;
+    background: #FFF6BD;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+.tooltip-ap div {
+    display: none;
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    z-index: 1000;
+    width: 190px;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    box-shadow: 0 1px 3px #C4C4C4;
+    border: 1px solid #DBB779;
+    background: #FFF6BD;
+    border-radius: 2px;
+}
