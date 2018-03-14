@@ -5,7 +5,7 @@ This is the Tooltip widget for Yii2 framework. Allows you to display stylized pr
 
 ## Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/kartik-v/yii2-widget-select2/blob/master/composer.json) for this extension's requirements and dependencies. Read this [web tip /wiki](http://webtips.krajee.com/setting-composer-minimum-stability-application/) on setting the `minimum-stability` settings for your application's composer.json.
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/antoha-p/yii2-widget-tooltip/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
 
