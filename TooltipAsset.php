@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @copyright Copyright &copy; Anton Puzanov, 2018
  * @package yii2-widgets

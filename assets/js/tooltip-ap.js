@@ -10,12 +10,14 @@ var initTooltip = function () {
 
 (function ($) {
     "use strict";
-    initTooltip = function (id) {
-        var $el = $('#'+id);
+    initTooltip = function (id, size) {
+        var $el = $('#' + id);
         var title = $el.attr('title');
 
         if (title && title !== '') {
             $el.attr('title', '').append('<div>' + title + '</div>');
+            $el.find('div').width(size + 'px');
+
             var width = $el.find('div').width() + 20;
             var height = $el.find('div').height() + 20;
 
