@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require antoha-v/yii2-widget-tooltip "@dev"
+$ php composer.phar require antoha-p/yii2-widget-tooltip "@dev"
 ```
 
 or add
