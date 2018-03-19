@@ -19,19 +19,18 @@ var initTooltip = function () {
             $el.find('div').width(size + 'px');
 
             var width = $el.find('div').width() + 20;
-            var height = $el.find('div').height() + 20;
 
             $el.hover(
                 function() {
                     $el.find('div')
                         .clearQueue()
                         .delay(200)
-                        .animate({width: width + 20, height: height + 20}, 200).show(200)
-                        .animate({width: width, height: height}, 200);
+                        .animate({width: width + 20}, 200).show(200)
+                        .animate({width: width}, 200);
                 },
                 function() {
                     $el.find('div')
-                        .animate({width: width + 20, height: height + 20}, 150)
+                        .animate({width: width + 20}, 150)
                         .animate({width: 'hide', height: 'hide'}, 150);
                 }
             ).mouseleave(function() {
